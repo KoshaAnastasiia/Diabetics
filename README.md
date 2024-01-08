@@ -1,5 +1,5 @@
 # Diabetics
-Prototype of an application for monitoring sugar level measurements and meal tracker
+Prototype of an application for monitoring sugar level measurements and meal tracker with using Firebase.
 
 1. Simple registration screen
 
