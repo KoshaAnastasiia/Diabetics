@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00522EED29DD8A6100836056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522EEC29DD8A6100836056 /* AppDelegate.swift */; };
+		00522EEF29DD8A6100836056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522EEE29DD8A6100836056 /* SceneDelegate.swift */; };
+		00522EF629DD8A6200836056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00522EF529DD8A6200836056 /* Assets.xcassets */; };
+		00522EF929DD8A6200836056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00522EF729DD8A6200836056 /* LaunchScreen.storyboard */; };
+		00522F0129DD9BC800836056 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00522F0029DD9BC800836056 /* GoogleService-Info.plist */; };
+		00522F0329DDA8B200836056 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F0229DDA8B200836056 /* LoginViewController.swift */; };
+		00522F0629DEC87800836056 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F0529DEC87800836056 /* LoginService.swift */; };
+		00522F0929DED9BE00836056 /* FillUserFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F0829DED9BE00836056 /* FillUserFormViewController.swift */; };
+		00522F0C29DEE0D100836056 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F0B29DEE0D100836056 /* Graph.swift */; };
+		00522F0E29DEE12D00836056 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F0D29DEE12D00836056 /* ViewControllerFactory.swift */; };
+		00522F1029E03BA600836056 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F0F29E03BA600836056 /* SignUpViewController.swift */; };
+		00522F1229E03CB700836056 /* StackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F1129E03CB700836056 /* StackViewModel.swift */; };
+		00522F1629E2CFF900836056 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522F1529E2CFF900836056 /* LoginError.swift */; };
+		008DA38B29FA797400C4A5F9 /* InfoFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008DA38A29FA797400C4A5F9 /* InfoFoodCell.swift */; };
+		0096E8AA29F84A6700000B94 /* NewFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0096E8A929F84A6700000B94 /* NewFoodViewController.swift */; };
+		00F311C529E4228E00DCF671 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311C429E4228E00DCF671 /* DataService.swift */; };
+		00F311C729E4276D00DCF671 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311C629E4276D00DCF671 /* DataModel.swift */; };
+		00F311CA29E4357D00DCF671 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311C929E4357D00DCF671 /* UserViewController.swift */; };
+		00F311CC29E4484400DCF671 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311CB29E4484400DCF671 /* DataError.swift */; };
+		00F311CE29F0457300DCF671 /* NewMeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311CD29F0457300DCF671 /* NewMeasureViewController.swift */; };
+		00F311D229F184C400DCF671 /* MeasureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311D129F184C400DCF671 /* MeasureTableViewController.swift */; };
+		00F311D429F2E00000DCF671 /* MeasureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311D329F2E00000DCF671 /* MeasureCell.swift */; };
+		00F311D629F4360A00DCF671 /* CartsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F311D529F4360A00DCF671 /* CartsSwiftUIView.swift */; };
+		4D2961716BA60D90ABA8EBFD /* Pods_Diabetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DEF19111C5427E8909835 /* Pods_Diabetics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00522EE929DD8A6100836056 /* Diabetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diabetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00522EEC29DD8A6100836056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00522EEE29DD8A6100836056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00522EF529DD8A6200836056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00522EF829DD8A6200836056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00522EFA29DD8A6200836056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00522F0029DD9BC800836056 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00522F0229DDA8B200836056 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00522F0529DEC87800836056 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		00522F0829DED9BE00836056 /* FillUserFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillUserFormViewController.swift; sourceTree = "<group>"; };
+		00522F0B29DEE0D100836056 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		00522F0D29DEE12D00836056 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		00522F0F29E03BA600836056 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		00522F1129E03CB700836056 /* StackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewModel.swift; sourceTree = "<group>"; };
+		00522F1529E2CFF900836056 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		008DA38A29FA797400C4A5F9 /* InfoFoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoFoodCell.swift; sourceTree = "<group>"; };
+		0096E8A929F84A6700000B94 /* NewFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFoodViewController.swift; sourceTree = "<group>"; };
+		00F311C429E4228E00DCF671 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		00F311C629E4276D00DCF671 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		00F311C929E4357D00DCF671 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		00F311CB29E4484400DCF671 /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		00F311CD29F0457300DCF671 /* NewMeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMeasureViewController.swift; sourceTree = "<group>"; };
+		00F311D129F184C400DCF671 /* MeasureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureTableViewController.swift; sourceTree = "<group>"; };
+		00F311D329F2E00000DCF671 /* MeasureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureCell.swift; sourceTree = "<group>"; };
+		00F311D529F4360A00DCF671 /* CartsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartsSwiftUIView.swift; sourceTree = "<group>"; };
+		ACEFBBAEAAE56544F6253F1B /* Pods-Diabetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabetics.debug.xcconfig"; path = "Target Support Files/Pods-Diabetics/Pods-Diabetics.debug.xcconfig"; sourceTree = "<group>"; };
+		C51C58FCD0EF0113139660A6 /* Pods-Diabetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabetics.release.xcconfig"; path = "Target Support Files/Pods-Diabetics/Pods-Diabetics.release.xcconfig"; sourceTree = "<group>"; };
+		F52DEF19111C5427E8909835 /* Pods_Diabetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diabetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00522EE629DD8A6100836056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2961716BA60D90ABA8EBFD /* Pods_Diabetics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00522EE029DD8A6100836056 = {
+			isa = PBXGroup;
+			children = (
+				00522EEB29DD8A6100836056 /* Diabetics */,
+				00522EEA29DD8A6100836056 /* Products */,
+				2FA487BC39C1A98D3570E85D /* Pods */,
+				6FA5DBC027164EF3406201D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00522EEA29DD8A6100836056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00522EE929DD8A6100836056 /* Diabetics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00522EEB29DD8A6100836056 /* Diabetics */ = {
+			isa = PBXGroup;
+			children = (
+				00522EEC29DD8A6100836056 /* AppDelegate.swift */,
+				00522EEE29DD8A6100836056 /* SceneDelegate.swift */,
+				00522F0A29DEE08300836056 /* Graph */,
+				00522F0429DEC82100836056 /* LoginService */,
+				00522F0729DED97A00836056 /* LoginViewController */,
+				00F311C829E4353A00DCF671 /* UserInformation */,
+				00F311C329E421F700DCF671 /* CloudData */,
+				00522EF529DD8A6200836056 /* Assets.xcassets */,
+				00522EF729DD8A6200836056 /* LaunchScreen.storyboard */,
+				00522EFA29DD8A6200836056 /* Info.plist */,
+				00522F0029DD9BC800836056 /* GoogleService-Info.plist */,
+			);
+			path = Diabetics;
+			sourceTree = "<group>";
+		};
+		00522F0429DEC82100836056 /* LoginService */ = {
+			isa = PBXGroup;
+			children = (
+				00522F0529DEC87800836056 /* LoginService.swift */,
+				00522F1529E2CFF900836056 /* LoginError.swift */,
+			);
+			path = LoginService;
+			sourceTree = "<group>";
+		};
+		00522F0729DED97A00836056 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00522F1129E03CB700836056 /* StackViewModel.swift */,
+				00522F0229DDA8B200836056 /* LoginViewController.swift */,
+				00522F0F29E03BA600836056 /* SignUpViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		00522F0A29DEE08300836056 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				00522F0B29DEE0D100836056 /* Graph.swift */,
+				00522F0D29DEE12D00836056 /* ViewControllerFactory.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		00F311C329E421F700DCF671 /* CloudData */ = {
+			isa = PBXGroup;
+			children = (
+				00F311C429E4228E00DCF671 /* DataService.swift */,
+				00F311C629E4276D00DCF671 /* DataModel.swift */,
+				00F311CB29E4484400DCF671 /* DataError.swift */,
+			);
+			path = CloudData;
+			sourceTree = "<group>";
+		};
+		00F311C829E4353A00DCF671 /* UserInformation */ = {
+			isa = PBXGroup;
+			children = (
+				00522F0829DED9BE00836056 /* FillUserFormViewController.swift */,
+				00F311C929E4357D00DCF671 /* UserViewController.swift */,
+				00F311CD29F0457300DCF671 /* NewMeasureViewController.swift */,
+				0096E8A929F84A6700000B94 /* NewFoodViewController.swift */,
+				00F311D329F2E00000DCF671 /* MeasureCell.swift */,
+				008DA38A29FA797400C4A5F9 /* InfoFoodCell.swift */,
+				00F311D129F184C400DCF671 /* MeasureTableViewController.swift */,
+				00F311D529F4360A00DCF671 /* CartsSwiftUIView.swift */,
+			);
+			path = UserInformation;
+			sourceTree = "<group>";
+		};
+		2FA487BC39C1A98D3570E85D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACEFBBAEAAE56544F6253F1B /* Pods-Diabetics.debug.xcconfig */,
+				C51C58FCD0EF0113139660A6 /* Pods-Diabetics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FA5DBC027164EF3406201D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52DEF19111C5427E8909835 /* Pods_Diabetics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00522EE829DD8A6100836056 /* Diabetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00522EFD29DD8A6200836056 /* Build configuration list for PBXNativeTarget "Diabetics" */;
+			buildPhases = (
+				902AE3255B6B77F98E078ABF /* [CP] Check Pods Manifest.lock */,
+				00522EE529DD8A6100836056 /* Sources */,
+				00522EE629DD8A6100836056 /* Frameworks */,
+				00522EE729DD8A6100836056 /* Resources */,
+				72072FA07E353030EF64B3C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diabetics;
+			productName = Diabetics;
+			productReference = 00522EE929DD8A6100836056 /* Diabetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00522EE129DD8A6100836056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					00522EE829DD8A6100836056 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 00522EE429DD8A6100836056 /* Build configuration list for PBXProject "Diabetics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00522EE029DD8A6100836056;
+			productRefGroup = 00522EEA29DD8A6100836056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00522EE829DD8A6100836056 /* Diabetics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00522EE729DD8A6100836056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00522EF929DD8A6200836056 /* LaunchScreen.storyboard in Resources */,
+				00522F0129DD9BC800836056 /* GoogleService-Info.plist in Resources */,
+				00522EF629DD8A6200836056 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72072FA07E353030EF64B3C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diabetics/Pods-Diabetics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diabetics/Pods-Diabetics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Diabetics/Pods-Diabetics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902AE3255B6B77F98E078ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diabetics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00522EE529DD8A6100836056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F311D629F4360A00DCF671 /* CartsSwiftUIView.swift in Sources */,
+				00522F0329DDA8B200836056 /* LoginViewController.swift in Sources */,
+				00F311C529E4228E00DCF671 /* DataService.swift in Sources */,
+				00F311D229F184C400DCF671 /* MeasureTableViewController.swift in Sources */,
+				00522F0E29DEE12D00836056 /* ViewControllerFactory.swift in Sources */,
+				00F311CE29F0457300DCF671 /* NewMeasureViewController.swift in Sources */,
+				00522F1629E2CFF900836056 /* LoginError.swift in Sources */,
+				00F311CC29E4484400DCF671 /* DataError.swift in Sources */,
+				00522F1229E03CB700836056 /* StackViewModel.swift in Sources */,
+				008DA38B29FA797400C4A5F9 /* InfoFoodCell.swift in Sources */,
+				00F311C729E4276D00DCF671 /* DataModel.swift in Sources */,
+				00522F1029E03BA600836056 /* SignUpViewController.swift in Sources */,
+				00F311CA29E4357D00DCF671 /* UserViewController.swift in Sources */,
+				00F311D429F2E00000DCF671 /* MeasureCell.swift in Sources */,
+				00522EED29DD8A6100836056 /* AppDelegate.swift in Sources */,
+				00522F0929DED9BE00836056 /* FillUserFormViewController.swift in Sources */,
+				00522F0C29DEE0D100836056 /* Graph.swift in Sources */,
+				00522EEF29DD8A6100836056 /* SceneDelegate.swift in Sources */,
+				00522F0629DEC87800836056 /* LoginService.swift in Sources */,
+				0096E8AA29F84A6700000B94 /* NewFoodViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00522EF729DD8A6200836056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00522EF829DD8A6200836056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00522EFB29DD8A6200836056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00522EFC29DD8A6200836056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00522EFE29DD8A6200836056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACEFBBAEAAE56544F6253F1B /* Pods-Diabetics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diabetics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medicineequipment.diabetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00522EFF29DD8A6200836056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51C58FCD0EF0113139660A6 /* Pods-Diabetics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diabetics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medicineequipment.diabetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00522EE429DD8A6100836056 /* Build configuration list for PBXProject "Diabetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00522EFB29DD8A6200836056 /* Debug */,
+				00522EFC29DD8A6200836056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00522EFD29DD8A6200836056 /* Build configuration list for PBXNativeTarget "Diabetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00522EFE29DD8A6200836056 /* Debug */,
+				00522EFF29DD8A6200836056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00522EE129DD8A6100836056 /* Project object */;
+}
